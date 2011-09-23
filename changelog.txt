@@ -1,8 +1,9 @@
 Site Builder
 
 
-Version 1.0
+Version 2.0
 -----------
-6/3/11
+9/22/11
 Summary
-  Beginning version 1
+  Beginning version 2. Class "data_util" is completely incompatible with
+  previous versions.
