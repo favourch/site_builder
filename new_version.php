@@ -50,14 +50,34 @@ function copyDir($last_dir='', $new_dir='', $update_dir='')
 		else {
 			$copy = false;
 			if(!is_file($last_file)) {
+				if(!is_dir($update_dir)) {
+					makeDir($update_dir);
+				}
 				exec("cp $new_file $update_file");
 				echo "N $new_file\r\n";
 			}
 			elseif(file($last_file) != file($new_file)) {
+				if(!is_dir($update_dir)) {
+					makeDir($update_dir);
+				}
 				exec("cp $new_file $update_file");
 				echo "U $new_file\r\n";
 			}
 		}
+	}
+}
+
+function makeDir($dir)
+{
+	$parts = explode('/', $dir);
+	if(count($parts > 0)) {
+		array_pop($parts);
+		$new_dir = implode('/', $parts);
+		if(!is_dir($new_dir)) {
+			makeDir($new_dir);
+		}
+		echo "Making dir $dir\r\n";
+		exec("mkdir $dir");
 	}
 }
 

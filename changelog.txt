@@ -3,7 +3,13 @@ Site Builder
 
 Version 2.0
 -----------
-9/22/11
+9/23/11
 Summary
   Beginning version 2. Class "data_util" is completely incompatible with
   previous versions.
+
+Version 2.0.1
+-----------
+9/23/11
+Summary
+  Added "model" and "base" directories.
