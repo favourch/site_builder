@@ -13,3 +13,9 @@ Version 2.0.1
 9/23/11
 Summary
   Added "model" and "base" directories.
+
+Version 2.0.2
+-----------
+9/23/11
+Summary
+  Fixed bug with building SQL query in base_data_util.
