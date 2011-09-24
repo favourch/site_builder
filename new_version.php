@@ -76,7 +76,6 @@ function makeDir($dir)
 		if(!is_dir($new_dir)) {
 			makeDir($new_dir);
 		}
-		echo "Making dir $dir\r\n";
 		exec("mkdir $dir");
 	}
 }
