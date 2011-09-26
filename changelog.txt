@@ -25,3 +25,9 @@ Version 2.0.3
 9/24/11
 Summary
   Made dm variable available in templates by default.
+
+Version 2.0.4
+-----------
+9/25/11
+Summary
+  Standardized "base_db" class and added documentation to some base classes.
