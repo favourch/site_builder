@@ -1,24 +1,23 @@
 Site Builder
 
 
-Version 2.0
+Version 2.0.6
 -----------
-9/23/11
+10/7/11
 Summary
-  Beginning version 2. Class "data_util" is completely incompatible with
-  previous versions.
+  Fixed bug in "build_model.php" script.
 
-Version 2.0.1
+Version 2.0.5
 -----------
-9/23/11
+10/3/11
 Summary
-  Added "model" and "base" directories.
+  Fixed bug in "base_db" class.
 
-Version 2.0.2
+Version 2.0.4
 -----------
-9/24/11
+9/25/11
 Summary
-  Fixed bug with building SQL query in base_data_util.
+  Standardized "base_db" class and added documentation to some base classes.
 
 Version 2.0.3
 -----------
@@ -26,8 +25,21 @@ Version 2.0.3
 Summary
   Made dm variable available in templates by default.
 
-Version 2.0.4
+Version 2.0.2
 -----------
-9/25/11
+9/24/11
 Summary
-  Standardized "base_db" class and added documentation to some base classes.
+  Fixed bug with building SQL query in base_data_util.
+
+Version 2.0.1
+-----------
+9/23/11
+Summary
+  Added "model" and "base" directories.
+
+Version 2.0
+-----------
+9/23/11
+Summary
+  Beginning version 2. Class "data_util" is completely incompatible with
+  previous versions.

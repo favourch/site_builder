@@ -15,11 +15,11 @@ echo 'Building models...<br />
 ';
 
 $sql = "show tables";
-foreach($dm->db()->getResults($sql) as $row)
+foreach($dm->db()->get_results($sql) as $row)
 {
 	$table	= $row->{'Tables_in_'.$dm->dbInfo()->name()};
 	$sql	= "describe `$table`";
-	$fields	= $dm->db()->getResults($sql);
+	$fields	= $dm->db()->get_results($sql);
 	$edit	= array();
 
 	/**** BASE MODEL CLASS FILE ****/
