@@ -213,10 +213,7 @@ class base_data_util extends util
 				}
 				$type	= isset($j['type']) ? $j['type'] : 'left';
 				$alias	= isset($j['alias']) ? $j['alias'] : substr($tableName, 0, 1);
-				$use		= isset($j['use']) ? $j['use'] : '';
-				if($use) {
-					$sql .= " $type join `$tableName` $alias on $use";
-				}
+				$sql .= " $type join `$tableName` $alias";
 			}
 		}
 

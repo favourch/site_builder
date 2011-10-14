@@ -85,7 +85,7 @@ class base_data_util extends util
 		$id = intval($id);
 
 		$options = array('where'=>array($this->__idField=>$id));
-		return $this->findOneBy($options);
+		return $this->findOneBy($sql);
 	}
 
 	// Retrieve one row from the database table by a list of fields
@@ -213,10 +213,7 @@ class base_data_util extends util
 				}
 				$type	= isset($j['type']) ? $j['type'] : 'left';
 				$alias	= isset($j['alias']) ? $j['alias'] : substr($tableName, 0, 1);
-				$use		= isset($j['use']) ? $j['use'] : '';
-				if($use) {
-					$sql .= " $type join `$tableName` $alias on $use";
-				}
+				$sql .= " $type join `$tableName` $alias";
 			}
 		}
 

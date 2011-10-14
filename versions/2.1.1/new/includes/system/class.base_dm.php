@@ -1,6 +1,6 @@
 <?php
 
-define('DATA_MODELER_VERSION', '2.1.3');
+define('DATA_MODELER_VERSION', '2.1.1');
 
 class base_dm extends data_util
 {
