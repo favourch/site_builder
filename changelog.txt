@@ -1,6 +1,12 @@
 Site Builder
 
 
+Version 2.1.5
+-------------
+10/15/11
+Summary
+  Only use ` around field name when building where if no alias is used.
+
 Version 2.1.4
 -------------
 10/14/11
