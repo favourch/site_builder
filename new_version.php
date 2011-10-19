@@ -58,16 +58,20 @@ function copyDir($last_dir='', $new_dir='', $update_dir='', &$file_list)
 					makeDir($update_dir);
 				}
 				$file_list[] = 'N '.str_replace(dirname(__FILE__).'/current/', '', $new_file);
-				exec("cp $new_file $update_file");
 				echo "N $new_file\r\n";
+				$new_file = str_replace(' ', '\ ', $new_file);
+				$update_file = str_replace(' ', '\ ', $update_file);
+				exec("cp $new_file $update_file");
 			}
 			elseif(file($last_file) != file($new_file)) {
 				if(!is_dir($update_dir)) {
 					makeDir($update_dir);
 				}
 				$file_list[] = 'U '.str_replace(dirname(__FILE__).'/current/', '', $new_file);
-				exec("cp $new_file $update_file");
 				echo "U $new_file\r\n";
+				$new_file = str_replace(' ', '\ ', $new_file);
+				$update_file = str_replace(' ', '\ ', $update_file);
+				exec("cp $new_file $update_file");
 			}
 		}
 	}

@@ -1,6 +1,13 @@
 Site Builder
 
 
+Version 2.2
+-------------
+10/19/11
+Summary
+  Added command line version of sql/index.php. Script is cli_db and must be
+  executable.
+
 Version 2.1.5
 -------------
 10/15/11

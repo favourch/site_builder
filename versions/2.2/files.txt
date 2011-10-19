@@ -1,0 +1,12 @@
+This is a list of files that were new or updated in version 2.2.
+N = New file
+U = Updated file
+
+U includes/system/class.base_dm.php
+U includes/system/class.base_util.php
+U includes/system/build_model.php
+N cli_db
+N sql/cli.php
+N sql/scripts/01 - init.sql
+N sql/scripts/02 - insertData.sql
+U sql/index.php
