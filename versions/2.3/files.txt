@@ -1,0 +1,19 @@
+This is a list of files that were new or updated in version 2.3.
+N = New file
+U = Updated file
+
+N includes/model/class.SiteBuilder.php
+N includes/model/base/class.BaseSiteBuilder.php
+U includes/system/class.base_dm.php
+U includes/system/class.base_util.php
+U includes/system/class.base_data_util.php
+U includes/system/class.base_session.php
+U resources/main.css
+N config/site.dmc
+N templates/test.php
+U templates/index.php
+N web/favicon.ico
+N web/test.php
+U config.php
+U sql/scripts/01 - init.sql
+U sql/scripts/02 - insertData.sql

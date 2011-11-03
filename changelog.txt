@@ -1,6 +1,15 @@
 Site Builder
 
 
+Version 2.3
+-------------
+11/3/11
+Summary
+  Added testing script (test.php).
+  Moved site configuration into site config file (site.dmc).
+  Added blank favicon file.
+  Added dynamic find functions for "base_util" class.
+
 Version 2.2
 -------------
 10/19/11
