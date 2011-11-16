@@ -1,6 +1,13 @@
 Site Builder
 
 
+Version 2.4
+-------------
+11/16/11
+Summary
+  Added logging on query count and query time.
+  Allow for non-arrays in "base_util" class.
+
 Version 2.3
 -------------
 11/3/11
