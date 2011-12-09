@@ -1,0 +1,17 @@
+This is a list of files that were new or updated in version 2.5.
+N = New file
+U = Updated file
+
+N includes/model/class.SiteUser.php
+N includes/model/class.SiteUserInfo.php
+N includes/model/base/class.BaseSiteBuilder.php
+N includes/model/base/class.BaseSiteUserInfo.php
+N includes/model/base/class.BaseSiteUser.php
+U includes/system/class.base_dm.php
+U includes/system/class.base_dbInfo.php
+U includes/system/class.base_data_util.php
+U includes/system/class.base_db.php
+N config/db.dmc
+N web/test.php
+U sql/cli.php
+N sql/scripts/01 - init.sql

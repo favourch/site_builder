@@ -1,0 +1,52 @@
+body, html, td, div, span, input, select {
+	font: 14px arial, sans-serif;
+	color: #000000;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+a {
+	color: #990000;
+}
+
+.message {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #a90000;
+	background: #f0f0bc;
+	color: #000000;
+	display: table;
+}
+
+.message-error {
+	font-weight: bold;
+	color: #cc0000;
+}
+
+table.rows { border-collapse: collapse; }
+table.rows td { border: 1px solid #333333; }
+table.rows tr.header td { font-weight: bold; }
+table.rows tr.row1 td { background: #f9f9f9; }
+table.rows tr.row2 td { background: #e3e3e3; }
+table.rows tr.selected td, table.rows tr.selected td a { background: #333333; color: #cccccc; font-weight: bold; }
+
+table.norows td { border: none; }
