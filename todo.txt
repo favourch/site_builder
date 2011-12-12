@@ -1,5 +1,5 @@
-### Add debug mode to base_data_util. This should output each query run along with some information about it.
-### Add ability to dynamically look up table name in joins in base_data_util. For example, the ability to use 'tableName'=>'##User##' instead of 'tableName'=>$dm->User()->__tableName.
+# Add debug mode to base_data_util. This should output each query run along with some information about it.
+# Add ability to dynamically look up table name in joins in base_data_util. For example, the ability to use 'tableName'=>'##User##' instead of 'tableName'=>$dm->User()->__tableName.
 
-# Add error handling to base_data_util. Pass this as an extra parameter by reference to the add and update queries.
-# Add Query object to make building queries easier.
+* Add error handling to base_data_util. Pass this as an extra parameter by reference to the add and update queries.
+* Add Query object to make building queries easier.
